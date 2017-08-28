@@ -1,0 +1,124 @@
+ul,li{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+
+a{
+  text-decoration:none;
+  color:#000;
+}
+
+
+.tab-wrap{
+  margin-top:20px;
+}
+
+.tabs .active{
+  background:#ccc;
+}
+
+.tabs-ct .tabs{
+  display:flex;
+  width:206px;
+  border:1px solid #ccc;
+  border-bottom:none;
+  border-radius:3px 3px 0 0;
+}
+
+.tabs li{
+  padding:10px 0;
+}
+
+.tabs li.active a{
+  color:#c81623;
+}
+
+.tabs li a{
+  padding:0 10px;
+  border-right:1px solid #ccc;
+}
+
+.tabs li:last-child a{
+  border:none;
+}
+
+.prod-ct{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  width:710px;
+}
+
+.panel{
+  display:none;
+}
+
+.panel.active{
+  display:block;
+}
+
+.prod{
+  position:relative;
+  width:180px;
+  border:1px solid #eee;
+  padding:10px 20px;
+  text-align:center;
+  margin:0 0 20px 0;
+}
+
+
+
+.cover .btn{
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform:translate(-50%,-50%);
+  border:1px solid #c81623;
+  color:#c81623;
+  padding: 10px 15px;
+  border-radius:5px;
+  background:#fff;
+  cursor:pointer;
+}
+
+.prod-name{
+  text-align:left;
+  height:50px
+}
+
+.prod-price{
+  color:#c81623;
+  text-align:left;
+}
+
+.cover{
+  position:absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0,0,0, 0.3);
+  transition: all 0.5s;
+  opacity: 0;
+}
+
+.prod:hover .cover{
+  opacity: 1;
+}
+
+
+.btn-add{
+  padding:10px 20px;
+  margin:10px;
+  border:1px solid #ccc;
+  width:80px;
+  text-align:center;
+  cursor:pointer;
+}
+
+.btn-add a{
+  color:#c81623;
+}
+
+

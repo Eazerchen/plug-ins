@@ -1,0 +1,18 @@
+ul,li{
+  list-style:none;
+}
+
+.container{
+  width:600px;
+  margin:0 auto;
+}
+
+.container li{
+  float:left;
+  margin:10px;
+}
+
+.container li img{
+  width:240px;
+  height:180px;
+}
